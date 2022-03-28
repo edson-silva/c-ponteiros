@@ -14,6 +14,12 @@ cout << "\n" << p << "\n";
 p=&vetor[1];
 cout << "\n" << p << "\n";
 
+p=&vetor[2];
+cout << "\n" << p << "\n";
+
+*(p+=1);
+cout << "\n" << p << "\n";
+
 return 0;
 
 }
